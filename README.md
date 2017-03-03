@@ -1,16 +1,16 @@
 # Apn2Client
-A simple APNs client built based on nghttp2 with Visual Studio 2015 for Windows platform.
-https://github.com/JiekeZhu/Apn2Client
-
-APNs Overview 官方文档
-https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1
-
-Configure push notifications 创建证书、工程属性、
-http://help.apple.com/xcode/mac/8.3/#/dev11b059073
-https://github.com/Redth/PushSharp/wiki/How-to-Configure-&-Send-Apple-Push-Notifications-using-PushSharp
-
-
-教程
+A simple APNs client built based on nghttp2 with Visual Studio 2015 for Windows platform.<p>
+https://github.com/JiekeZhu/Apn2Client <p>
+<p>
+APNs Overview 官方文档<p>
+https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1<p>
+<p>
+Configure push notifications 创建证书、工程属性<p>
+http://help.apple.com/xcode/mac/8.3/#/dev11b059073 <p>
+https://github.com/Redth/PushSharp/wiki/How-to-Configure-&-Send-Apple-Push-Notifications-using-PushSharp <p>
+<p>
+<p>
+教程<p>
 http://blog.csdn.net/daydreamingboy/article/details/7977098
 https://github.com/Redth/PushSharp/wiki/How-to-Configure-&-Send-Apple-Push-Notifications-using-PushSharp
 https://developer.apple.com/library/prerelease/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html#//apple_ref/doc/uid/TP40008194-CH11-SW1 通信过程和架构
