@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{275c0017-5a4b-4da6-b375-3523a1f1cdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\src">
+      <UniqueIdentifier>{af6827b2-81c6-47d6-aa44-223635b7504a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\header">
+      <UniqueIdentifier>{ddc6840e-3572-4e42-8622-0332c171bb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{fed642dd-7625-4324-9afe-487b76a00857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\nghttp2">
+      <UniqueIdentifier>{e099a3cf-6aa8-4e2c-9ae5-3092fe37e60f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_submit.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_buf.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_callbacks.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_debug.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_frame.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_hd.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_hd_huffman.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_helper.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_http.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_int.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_map.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_mem.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_net.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_npn.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_option.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_outbound_item.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_pq.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_priority_spec.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_queue.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_rcbuf.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_session.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\nghttp2_stream.h">
+      <Filter>lib\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\includes\nghttp2\nghttp2ver.h">
+      <Filter>includes\nghttp2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nghttp2-master\lib\includes\nghttp2\nghttp2.h">
+      <Filter>includes\nghttp2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_version.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_buf.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_callbacks.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_debug.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_frame.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_hd.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_hd_huffman.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_hd_huffman_data.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_helper.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_http.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_map.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_mem.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_npn.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_option.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_outbound_item.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_pq.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_priority_spec.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_queue.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_rcbuf.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_session.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_stream.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nghttp2-master\lib\nghttp2_submit.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
